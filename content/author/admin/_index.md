@@ -6,45 +6,37 @@ name = "Jan Klein"
 superuser = true
 
 # Role/position
-role = "Professor of Artificial Intelligence"
+role = "PhD Student in Data Analytics"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Stanford University", url = "" } ]
+organizations = [ 	{ name = "Centrum Wiskunde & Informatica", url = "https://www.cwi.nl/" },
+					{ name = "Dutch Ministry of the Interior and Kingdom Relations", url = "https://www.government.nl/ministries/ministry-of-the-interior-and-kingdom-relations/" }, 
+					{ name = "Vrije Universiteit Amsterdam", url = "https://www.vu.nl/en" }]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My research interests include distributed robotics, mobile computing and programmable matter."
+bio = "My research is about developing machine learning techniques for anomaly detection."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = ""
 
 # List (academic) interests or hobbies
 interests = [
-  "Artificial Intelligence",
-  "Computational Linguistics",
-  "Information Retrieval"
+  "Machine Learning",
+  "Anomaly Detection",
+  "Mathematics"
 ]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
+  course = "MSc in Mathematics, Stochastics track"
+  institution = "Vrije Universiteit Amsterdam"
+  year = 2016
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
-
-[[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
-
-[[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
+  course = "BSc in Mathematics"
+  institution = "Vrije Universiteit Amsterdam"
+  year = 2014
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -54,22 +46,17 @@ interests = [
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "#contact"  # For a direct email link, use "mailto:test@example.org".
+  link = "mailto:j.g.klein@cwi.nl"  # For a direct email link, use "mailto:test@example.org".
 
 [[social]]
-  icon = "twitter"
+  icon = "linkedin"
   icon_pack = "fab"
-  link = "https://twitter.com/GeorgeCushen"
-
-[[social]]
-  icon = "google-scholar"
-  icon_pack = "ai"
-  link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
-
+  link = "https://www.linkedin.com/in/jan-klein-abb773153/"
+  
 [[social]]
   icon = "github"
   icon_pack = "fab"
-  link = "https://github.com/gcushen"
+  link = "https://github.com/jankhub"
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -80,6 +67,6 @@ interests = [
 
 +++
 
-Nelson Bighetti is a professor of <a href="http://www.alessandrozonta.ml">artificial</a> <b>intelligence</b> at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Jan Klein is a Ph.D. Student in the <a href="https://www.cwi.nl/research/groups/stochastics">Stochastics</a> group of the <a href="https://www.cwi.nl/">Centrum Wiskunde & Informatica</a> and in both the <a href="https://www.math.vu.nl/en/research/analytics-and-optimization/index.aspx">Analytics & Optimization</a> and the <a href="https://www.cs.vu.nl/ci/">Computational Intelligence</a> group of the <a href="https://www.vu.nl/en">Vrije Universiteit Amsterdam</a>. His research is funded by the <a href="https://www.government.nl/ministries/ministry-of-the-interior-and-kingdom-relations/">Dutch Ministry of the Interior and Kingdom Relations</a> and is part of the project "Development of Data Analytics, Data Science and Crypto Analytics techniques" together with Ph.D. Student <a href="https://www.cwi.nl/people/joris-pries">Joris Pries</a>, trainee <a href="https://www.cwi.nl/people/etienne-van-de-bijl">Etienne van de Bijl</a> and supervisors <a href="https://www.cwi.nl/people/rob-van-der-mei">Rob van der Mei</a>, <a href="https://www.math.vu.nl/~sbhulai/">Sandjai Bhulai</a> and <a href="https://www.cs.vu.nl/~mhoogen/">Mark Hoogendoorn</a>.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+My research is focused on the development of machine learning techniques for anomaly detection. These methods are primarily applied in the field of cybersecurity to identify harmful network traffic in large sets of cyberdata. I am mainly working on ways to reduce the number of false alarms without missing potentially fatal cyberattacks. At the moment, I am studying Active Learning, which utilizes the knowledge of human cyberexperts in order to enhance the classification of either benign or malicious network connections.
